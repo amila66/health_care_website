@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    
+    <header class="header">
+        <img src="images/logo.png" id="logo" alt="logo image">
+
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menubar" class="fas fa-bars"></div>
+            <a href="#">contact</a>
+        </div>
+    </header>
+
+    <div class="background-image">
+        <div class="background-content">
+            <h1>PRESCRIPTO <br></h1><h1> Advanced healthcare digitally</h1>
+            <p> Prescripto is here to simplify your healthcare experience. It keeps your medical history safe, ensures prescriptions are clear and quick, and ultimately saves lives by avoiding errors. 
+                Prescripto is not just a solution; it's a game-changer!
+                 </p>
+            <a href="#">Read more</a>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="main-about">
+            <div class="inner-about">
+                <div class="about-content">
+                    <h1>about us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, consequuntur harum beatae inventore voluptatem numquam voluptatibus fuga, cupiditate cumque porro perferendis tempora, adipisci culpa odio molestias dolorem blanditiis quos ad!</p>
+                <a href="#">Read more</a>
+                </div>
+                
+            </div>
+            <div class="inner-about">
+                <div class="inner-about-image">
+                    <img src="images/chiness.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-services">
+        <div class="service-content">
+            <div class="left-service-content">
+                <h1>Our special services</h1>
+                <p>We have three tiers and a special discount package for government hospitals.
+                </p>
+            </div>
+
+            <div class="right-service-content">
+                <div class="right-btn">
+                    <a href="#">See all services</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-services">
+            <div class="inner-services-content">
+                <div class="service-icon">
+                    <i class="fas fa-notes-medical"></i>
+                </div>
+                <h2>Core</h2>
+                <p>Free demo<br>Up to 50 doctors and 5 pharmacists can be registered<br>24/7 customer support<br>uP TO 1000 Patient profiles can be created<br>Patients can not access the profile.</p>
+
+            </div>
+
+            <div class="inner-services-content">
+                <div class="service-icon">
+                    <i class="fas fa-hospital-user"></i>
+                </div>
+                <h2>Deluxe</h2>
+                <p>Free demo<br>Up to 200 doctos and an unlimited number of pharmacists can be tregistered<br>Up to 5000patient profiles can be created<br>Report digitizing and storing SMS notifications<br>Patients can access their own profiles<br>Drug interaction section</p>
+                
+            </div>
+
+            <div class="inner-services-content">
+                <div class="service-icon">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <h2>Elite</h2>
+                <p>Free demo<br>Unlimited number of doctors and pharmacists can be registered<br>unlimited number of patient profiles can be created<br>Full electronic health record</p>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="gallery">
+        <h1>Gallery</h1>
+        <div class="main-gallery">
+            <div class="inner-gallery">
+                <img src="images/gal1.jpg" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal2.jpg" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal3.jpg" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal4.jpg" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal5.jpg" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="why-choseus">
+    <div class="main-chose">
+        <div class="inner-chose">
+            <img src="images/cute.jpg" alt="">
+        </div>
+
+        <div class="inner-chose">
+            <h1>why chose us </h1>
+
+            <div class="inner-chose-content">
+                <div class="main-inner-chose">
+                    <div class="chose-icon">
+                        <i class="fas fa-notes-medical"></i>
+                    </div>
+                    <div class="icon-content">
+                        <p>Tailor made for the Sri lankan healthcare system </p>
+                    </div>
+                </div>
+
+                <div class="main-inner-chose">
+                    <div class="chose-icon">
+                        <i class="fas fa-hospital-user"></i>
+                        
+                    </div>
+                    <div class="icon-content">
+                        <p>Enthusiastic and motivated Team </p>
+                    </div>
+                </div>
+
+                <div class="main-inner-chose">
+                    <div class="chose-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="icon-content">
+                        <p>Prioritizing patient safety </p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="our-doctors">
+    <h1>Our special doctors</h1>
+
+    <div class="main-doctor">
+        <div class="inner-doctor">
+            <img src="images/gal3.jpg" alt="">
+            <div class="doc-icons">
+                <div class="fab fa-facebook"></div>
+                <div class="fab fa-twitter"></div>
+                <div class="fab fa-instagram"></div>
+                <div class="fab fa-linkedin"></div>
+            </div>
+        </div>
+
+        <div class="inner-doctor">
+            <img src="images/gal2.jpg" alt="">
+            <div class="doc-icons">
+                <div class="fab fa-facebook"></div>
+                <div class="fab fa-twitter"></div>
+                <div class="fab fa-instagram"></div>
+                <div class="fab fa-linkedin"></div>
+            </div>
+        </div>
+
+        <div class="inner-doctor">
+            <img src="images/gal5.jpg" alt="">
+            <div class="doc-icons">
+                <div class="fab fa-facebook"></div>
+                <div class="fab fa-twitter"></div>
+                <div class="fab fa-instagram"></div>
+                <div class="fab fa-linkedin"></div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <div class="main-footer">
+        <div class="inner-footer">Scan me!!
+            <img src="logo.png" alt="">
+        </div>
+
+        <div class="inner-footer">
+            <h2>heading</h2>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+        </div>
+
+        <div class="inner-footer">
+            <h2>heading</h2>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+        </div>
+
+        <div class="inner-footer">
+            <h2>heading</h2>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- provide an exceptional patient experience
+<i class="fas fa-notes-medical"></i>
+<i class="fas fa-hospital-user"></i>
+<i class="fas fa-user-md"></i>
+-->
